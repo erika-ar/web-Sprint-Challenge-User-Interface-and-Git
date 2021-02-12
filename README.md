@@ -34,23 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If I had to describe semantic HTML to the next cohort of students, I would tell them that semantic HTML is used to give meaning to our HTML through elements that clearly
+describe what the content is about. An example would be <nav> this tells the developer and the browser that whatever content you are trying to make is a navigation.
+A counter-example is <div> you can use div to section your content for easier styling but it doesn't tell you or the browser what that content is. I would also note that
+semantic HTML is useful for accessibility reasons; the visually impaired use screen-readers that require semantic HTML to tell the user what type of content is being described.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+ 1) inline elements appear on the same line while block elements start on a new line. 2) You can change the height and width of block elements but not inline elements.
 
 3. What are the 4 areas of the box model?
+The content, padding, border, and margins.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The cross-axis.
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable to a team of devs because you can all work on the same project and 1) keep history of changes, 2) store all of the content, 3) make changes without affecting the
+remote or main file, 4) you can request changes, 5) you can review changes
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
