@@ -21,6 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+    font-weight: bold;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -69,6 +70,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+header.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* border: 1px solid red; */
+
+}
+
+header img {
+    width: 25%;
+}
+
+header.header nav.navLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+header.header nav.navLinks a {
+    text-decoration: none;
+    color: black;
+
+}
+
+img.jumbo {
+    margin: 20px 0; 
 }
 
 .top-content {
@@ -104,12 +135,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +213,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Styles for the about page */
+
+.middleSectionContainer {
+    border-top: 1px dashed black;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.middleSectionUpperContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middleSectionLowerContainer {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.middleSectionContent {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middleSectionContent h3 {
+    padding: 10px 0;
+}
+
+.middleSectionContent button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.bottomSection {
+    padding-bottom: 20px;
 }
