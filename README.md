@@ -39,22 +39,22 @@ Edit this document to include your answers after each question. Make sure to lea
 3. What are the 4 areas of the box model?
 <!-- The content, padding, border, and margin in order from innermost to outermost. -->
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+<!-- The cross axis -->
 5. Explain why git is valuable to a team of developers.
-
+<!-- Multiple people can work on the same project without affecting the final product and review changes -->
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [☑️] Create a forked copy of this project.
+- [☑️] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [☑️] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [☑️] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [☑️] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [☑️] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
